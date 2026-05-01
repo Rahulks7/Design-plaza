@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Tenor+Sans&display=swap');
+
+@import "tailwindcss";
+
+body,html {
+  overflow-x:hidden;
+  background-color: #f4f7f4;
+ color:black;
+}
+
+p,
+li,
+label,  
+h6 {
+  font-family: 'Inter', sans-serif;
+
+}
+
+
+h1,
+h2,
+h3,
+span,
+h4,
+button,
+.btn,
+a,
+button,
+.nav-item {
+  font-family: 'Tenor Sans', sans-serif;
+
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
